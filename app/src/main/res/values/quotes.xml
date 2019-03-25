@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="steve_jobs_quotes">
+        <item>Let’s go invent tomorrow rather than worrying about what happened yesterday.</item>
+        <item>I decided to drop out and trust that it would all work out ok.</item>
+        <item>I do not adopt softness towards others because I want to make them better.</item>
+        <item>The doers are the major thinkers. The people that really create the things that change this industry are both the thinker and doer in one person.</item>
+        <item>You can build your own things that other people can use. And once you learn that, you’ll never be the same again.</item>
+        <item>Once you discover one simple fact, and that is everything around you that you call life, was made up by people that were no smarter than you.</item>
+        <item>I always advise people – Don’t wait! Do something when you are young, when you have nothing to lose, and keep that in mind..</item>
+
+    </string-array>
+
+    <string-array name="ada_lovelace_quotes">
+        <item>That brain of mine is something more than merely mortal, as time will show.</item>
+        <item>Mathematical science shows what is. It is the language of unseen relations between things. But to use and apply that language, we must be able fully to appreciate, to feel, to seize the unseen, the unconscious.</item>
+        <item>The more I study, the more insatiable do I feel my genius for it to be.</item>
+        <item>Understand well as I may, my comprehension can only be an infinitesimal fraction of all I want to understand.</item>
+        <item>That brain of mine is something more than merely mortal; as time will show.</item>
+        <item>If you cannot give me poetry, cannot you give me poetical science?</item>
+        <item>The Analytical Engine has no pretensions whatever to originate anything. It can do whatever we know how to order it to perform.</item>
+    </string-array>
+
+
+    <string-array name="james_gosling_quotes">
+        <item>Java is C++ without the guns, clubs and knives.</item>
+        <item>I think it would be a tragic statement of the universe if Java was the last language that swept through.</item>
+        <item>People think of security as a noun, something you go buy. In reality, it's an abstract concept like happiness. Openness is unbelievably helpful to security.</item>
+        <item>It makes my head explode when there are people who think you can do everything in HTML.</item>
+        <item>The real payoffs you never understand. You should just give good people money and tell them to do good things.</item>
+        <item>If I were to pick a language to use today other than Java, it would be Scala</item>
+        <item>An API that is not comprehensible is not usable.</item>
+    </string-array>
+
+
+</resources>

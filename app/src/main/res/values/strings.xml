@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">RMA_LV1</string>
+    <string name="steve_jobs">Steve Jobs</string>
+    <string name="steve_jobs_date">1955-2011</string>
+    <string name="James_Gosling_date">1955-2019</string>
+    <string name="Ada_Lovelace_date">1815-1852</string>
+    <string name="Steve_Jobs_CV">He was an American business magnate and investor. He was the chairman, chief executive officer (CEO), and co-founder of Apple Inc</string>
+    <string name="Ada_Lovelace_CV">She was an English mathematician and writer, chiefly known for her work on Charles Babbage\'s proposed mechanical general-purpose computer, the Analytical Engine.</string>
+    <string name="James_Gosling_CV">He is a Canadian computer scientist, best known as the founder and lead designer behind the Java programming language.</string>
+    <string name="Ada_Lovelace">Ada Lovelace</string>
+    <string name="James_Gosling">James Gosling</string>
+
+</resources>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/ivJobsImage"
+        style="@style/PersonImages"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/steve_jobs"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/ivAdaImage"
+        style="@style/PersonImages"
+        android:layout_marginTop="181dp"
+        android:src="@drawable/ada_lovelace"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ImageView
+        android:id="@+id/ivGoslingImage"
+        style="@style/PersonImages"
+        android:layout_marginTop="335dp"
+        android:src="@drawable/james_gosling"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvJobsName"
+        style="@style/PersonNames"
+        android:layout_marginTop="24dp"
+        android:text="@string/steve_jobs"
+        app:layout_constraintStart_toEndOf="@+id/ivJobsImage"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/tvAdaName"
+        style="@style/PersonNames"
+        android:layout_marginTop="181dp"
+        android:text="@string/Ada_Lovelace"
+        app:layout_constraintStart_toEndOf="@+id/ivAdaImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvGoslingName"
+        style="@style/PersonNames"
+        android:layout_marginTop="335dp"
+        android:text="@string/James_Gosling"
+        app:layout_constraintStart_toEndOf="@+id/ivGoslingImage"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tvJobsDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/steve_jobs_date"
+        app:layout_constraintStart_toEndOf="@+id/ivJobsImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvJobsName" />
+
+    <TextView
+        android:id="@+id/tvAdaDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/Ada_Lovelace_date"
+        app:layout_constraintStart_toEndOf="@+id/ivAdaImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvAdaName" />
+
+    <TextView
+        android:id="@+id/tvGoslingDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/James_Gosling_date"
+        app:layout_constraintStart_toEndOf="@+id/ivGoslingImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvGoslingName" />
+
+
+    <TextView
+        style="@style/PersonCV"
+        android:text="@string/Steve_Jobs_CV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivJobsImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvJobsDate" />
+
+    <TextView
+        style="@style/PersonCV"
+        android:text="@string/Ada_Lovelace_CV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivAdaImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvAdaDate" />
+
+    <TextView
+        style="@style/PersonCV"
+        android:text="@string/James_Gosling_CV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/ivGoslingImage"
+        app:layout_constraintTop_toBottomOf="@+id/tvGoslingDate" />
+
+
+</android.support.constraint.ConstraintLayout>
